@@ -62,7 +62,7 @@ body.hidden {
 }
 
 main {
-  background: url(../img/group-plus.png) no-repeat top 1% right 12%, url(../img/group-line.png) no-repeat top 6% left 10%, url(../img/Ellipse\ 13.png) no-repeat top 35% right, url(../img/Ellipse\ 14.png) no-repeat top 99% left;
+  background: url(../img/group-plus.png) no-repeat top 1% right 12%, url(../img/group-line.png) no-repeat top 6% left 10%, url(../img/ellipse13.png) no-repeat top 35% right, url(../img/ellipse14.png) no-repeat top 99% left, url(../img/ellipse-header.png) no-repeat right top;
 }
 @media (max-width: 1160px) {
   main {
@@ -71,14 +71,14 @@ main {
 }
 @media (max-width: 590px) {
   main {
-    background: url(../img/Ellipse\ 16.png) no-repeat left top 50%;
+    background: url(../img/ellipse16.png) no-repeat left top 50%;
   }
 }
 
 .arrow-btn-up {
   width: 50px;
   height: 50px;
-  background: url(../img/arrow.svg), linear-gradient(#2f4a7c, #161517) padding-box, linear-gradient(to bottom, #343b7a, #fff) border-box;
+  background: url(../img/arrow.svg), linear-gradient(#2f4a7c, #3f3a44) padding-box, green border-box;
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
@@ -111,12 +111,7 @@ main {
   right: 0;
   padding: 17px 0;
   transition: 0.3s ease;
-  background: url(../img/ellipse-header.png) no-repeat right top var(--bg-main);
-}
-@media (max-width: 1160px) {
-  .header-fixed {
-    background: var(--bg-main);
-  }
+  background: var(--bg-main);
 }
 @media (max-width: 590px) {
   .header-fixed {
@@ -151,7 +146,7 @@ main {
   .header .burger {
     display: flex;
     width: 40px;
-    height: 25px;
+    height: 40px;
     background: url(../img/burger.svg) no-repeat center;
     position: relative;
     z-index: 5;
@@ -271,7 +266,7 @@ main {
 }
 .header-btn:first-child {
   width: 94px;
-  background: transparent;
+  background: var(--bg-main);
 }
 .header-btn:first-child:hover {
   background: #C3C3C3;
